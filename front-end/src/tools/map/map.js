@@ -52,7 +52,7 @@ $(document).ready(()=> {
                 res.map(res => {
 
                 const API_URL = 'https://maps.googleapis.com/maps/api/geocode/json';
-                const API_KEY = 'AIzaSyCjYhQMkyHX5zElBnaglrn8_6eDEBf3e3E';
+                const API_KEY = '';
 
                 const doRequest = url => {
                     return new Promise((resolve, reject) => {
